@@ -1,0 +1,108 @@
+*{
+  font-family: 'Roboto', sans-serif;
+	margin: auto;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.navegacion{
+	width: auto;
+	margin:0px auto;
+	background: #0FA516;
+  text-align: center;
+
+}
+
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #000000;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FFFFFF;
+	transition: all .4s;
+}
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+input[type="text"], input[type="password"]{
+outline: none;
+padding: 15px;
+display: block;
+width: 300px;
+border-radius: 3px;
+border: 1px solid #eee;
+margin: 20px 75px;
+position: relative;
+top: 20px;
+}
+input[type="submit"]{
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+  background: #34D840;
+  width: 250px;
+  margin: 20px 100px;
+  margin-top: 0;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+}
+input[type="submit"]:hover{
+  background: #117A19;
+}
+span{
+  border-radius: 3px;
+  padding: 10px;
+  background: #34D840;
+  width: 250px;
+  margin: 20px 100px;
+  margin-top: 0;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  top: 200px;
+  right: -55px;
+}
+span a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.textlo{
+width:1200px;
+margin-top: 10px;
+}
