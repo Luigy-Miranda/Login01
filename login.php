@@ -9,30 +9,33 @@
   </head>
   
   <body background="assest/ima/homeofi.jpg">
-        <form class="container" action="validacionentrar.php" method="post">
-
-
+    <!-- Estructura del Formulario -->
+        <form class="container" action="validacion.php" method="post">
+    <!-- Cuadro de contenido izquierdo-->
         <div class="modal-container">
+    <!-- Divicion superior  -->
           <div class="banner-container">
             <p>Mi Doctor.com</p>
+                <!-- Division de la imagen -->
             <div class="ima-container">
               <img src="assest/ima/log.png" alt="imagen">
             </div>
+                <!-- Division de el texto inferior -->
             <div class="info-banner">
               <p>Tu salud nuestra Prioridad</p>
             </div>
           </div>
+<!-- Cuadro de contenido derecho-->
 <div class="form-container">
+  <!-- Boton Regresar-->
   <div class="retu">
     <a href="index.php">Regresar</a>
   </div>
+  <!-- Division de Texto-->
   <div class="welcome">
     <h1>Bienvenido</h1>
   </div>
-<div class="credenciales">
-  <div class="icono">
-    <i class="fas fa-user"></i>
-  </div>
+  <!--Division de Ingreso de datos-->
   <div>
     <h5>Numero de Identificacion:</h5>
     <input type="text" name="cedula" placeholder="Ingrese su numero de Cedula">
@@ -47,11 +50,13 @@
     <input type="password" name="pass" placeholder="Ingrese su Contraseña">
   </div>
 </div>
+  <!-- Boton de Olvidaste tu Contraseña-->
 <div class="olvido">
   <a href="#">Olvidaste tu Contraseña?</a>
 </div>
-
+<!--Boton de Ingresar-->
 <input type="submit" name="boton" value="Ingresar">
+          <!-- Boton de Registrarse-->
 <div class="repp">
   <a href="RegistroDOC.php">Registrarme</a>
 </div>
